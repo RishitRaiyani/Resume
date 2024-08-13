@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles2.css">
+    <title>Contact me</title>
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="âPngtreeârr_3629368.png" class="logo">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="digicard.html" target="_blank">DIGITAL CARD</a></li>
+                <li><a href="contact.html" class="page3">CONTACTS</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+            </ul>
+            <img src="moon.png" id="icon">
+        </nav>
+        <div class="container">
+        <div class="box1"><a href="https://github.com/RishitRaiyani" target="_blank"><i class=""></i><p>Git-hub</p></a></div>
+        </div>
+        <div class="container1">
+            <div class="box1"><a href="resume.png" target="_blank"><i class=""></i><p>Resume</p></a></div>
+        </div>
+        <div class="container2">
+            <div class="box2"><a href="https://www.linkedin.com/in/rishit-raiyani-47a006257/" target="_blank"><i class=""></i><p>Linked-In</p></a></div>
+        </div>
+    </div>
+
+        <script>
+            var icon = document.getElementById("icon");
+            icon.onclick  = function()  {
+                document.body.classList.toggle("dark-theme");
+                if(document.body.classList.contains("dark-theme")){
+                    icon.src = "sun.png";
+                }else{
+                    icon.src = "moon.png";
+                }
+            }
+        </script>
+</body>
+</html>

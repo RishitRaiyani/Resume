@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+}
+
+:root{
+    --primary-color: #e0dddd;
+    --secondary-color: #212121;
+}
+
+.dark-theme{
+    --primary-color: #000106;
+    --secondary-color: #fff;
+}
+
+#icon{
+    width: 40px;
+    cursor: pointer;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background: var(--primary-color);
+    position: relative;
+    font-family: 'poppins', sans-serif;
+}
+
+nav{
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+.page3{
+    padding: 12px;
+    border-radius: 10px;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    border: 1px transparent;
+}
+
+.container{
+    margin: auto;
+    position: relative;
+    width: 305px;
+    height: 55px;
+    border-radius: 20px;
+    background: repeating-conic-gradient(from var(--a),#ff2770 0%,#ff2770 5%,transparent 5%,transparent 40%, #3571d1 50%);
+    animation: animate 2s linear infinite;
+}
+
+@property --a{
+    syntax: '<angle>';
+    inherits: false;
+    initial-value: 0deg;
+}
+
+@keyframes animate{
+    0%{
+        --a: 0deg;
+    }
+    100%{
+        --a: 360deg;
+    }
+}
+
+.box1{
+    border: 2px transparent;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    transition: transform 0.5s ease-in-out;
+}
+
+.box1:hover{
+    transform: scale(1.03);
+}
+
+.box1 a{
+    font-size:larger;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    color: #19214e;
+}
+
+.box1 a i{
+    text-align: left;
+    margin: 15px 0 0 30px;
+}
+
+.box1 a p{
+    margin-top: 10px;
+    padding-right: 50px;
+}
+
+.container1{
+    margin: auto;
+    position: relative;
+    width: 305px;
+    height: 55px;
+    border-radius: 20px;
+    background: repeating-conic-gradient(from var(--a),#ff2770 0%,#ff2770 5%,transparent 5%,transparent 40%, #3571d1 50%);
+    animation: animate 2s linear infinite;
+}
+
+@property --a{
+    syntax: '<angle>';
+    inherits: false;
+    initial-value: 0deg;
+}
+
+@keyframes animate{
+    0%{
+        --a: 0deg;
+    }
+    100%{
+        --a: 360deg;
+    }
+}
+
+.box2{
+    border: 2px transparent;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    transition: transform 0.5s ease-in-out;
+}
+
+.box2:hover{
+    transform: scale(1.03);
+}
+
+.box2 a{
+    font-size:larger;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    color: #19214e;
+}
+
+.box2 a i{
+    text-align: left;
+    margin: 15px 0 0 30px;
+}
+
+.box2 a p{
+    margin-top: 10px;
+    padding-right: 50px;
+}
+
+.container2{
+    margin: auto;
+    position: relative;
+    width: 305px;
+    height: 55px;
+    border-radius: 20px;
+    background: repeating-conic-gradient(from var(--a),#ff2770 0%,#ff2770 5%,transparent 5%,transparent 40%, #3571d1 50%);
+    animation: animate 2s linear infinite;
+}
+
+@property --a{
+    syntax: '<angle>';
+    inherits: false;
+    initial-value: 0deg;
+}
+
+@keyframes animate{
+    0%{
+        --a: 0deg;
+    }
+    100%{
+        --a: 360deg;
+    }
+}
+
+.box2{
+    border: 2px transparent;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    transition: transform 0.5s ease-in-out;
+}
+
+.box2:hover{
+    transform: scale(1.03);
+}
+
+.box2 a{
+    font-size:larger;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    color: #19214e;
+}
+
+.box2 a i{
+    text-align: left;
+    margin: 15px 0 0 30px;
+}
+
+.box2 a p{
+    margin-top: 10px;
+    padding-right: 50px;
+}

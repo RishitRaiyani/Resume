@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Landing page</title>
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="âPngtreeârr_3629368.png" class="logo">
+            <ul>
+                <li class="page1"><a href="index.html">HOME</a></li>
+                <li><a href="digicard.html" target="_blank">DIGITAL CARD</a></li>
+                <li><a href="contact.html" target="_blank">CONTACTS</a></li>
+                <li><a href="portfolio.html" target="_blank">PORTFOLIO</a></li>
+            </ul>
+            <img src="moon.png" id="icon">
+        </nav>
+
+        <div class="info">
+            <h1>I'm <span>Rishit</span> Raiyani</h1>
+            <p>I am an aspiring Information and Communications Technology (ICT) student seeking an internship position to apply and enhance coding skills while contributing to real- world projects.</p>
+            <p>I have basic idea about most of coding languages and how they work.</p>
+            <a href="portfolio.html">My Portfolio</a>
+        </div>
+
+        <div class="img">
+            <a><img src = ""></a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="branch">
+            <div></div>
+        </div>
+        <div class="owl">
+            <div class="ear-l"></div>
+            <div class="ear-r"></div>
+            <div class="wing-l"></div>
+            <div class="wing-r"></div>
+            <div class="feet-l"></div>
+            <div class="feet-r"></div>
+            <div class="eye-l">
+                <div class="eyeball"></div>
+                <div class="eyelid"></div>
+            </div>
+            <div class="eye-r">
+                <div class="eyeball"></div>
+                <div class="eyelid"></div>
+            </div>
+            <div class="nose"></div>
+            <div class="leg-l"></div>
+            <div class="leg-r"></div>
+        </div>
+        </div>
+    <script>
+        var icon = document.getElementById("icon");
+        icon.onclick  = function()  {
+            document.body.classList.toggle("dark-theme");
+            if(document.body.classList.contains("dark-theme")){
+                icon.src = "sun.png";
+            }else{
+                icon.src = "moon.png";
+            }
+        }
+    </script>
+</body>
+</html>

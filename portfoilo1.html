@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles3.1.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="âPngtreeârr_3629368.png" class="logo">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="digicard.html">DIGITAL CARD</a></li>
+                <li><a href="contact.html">CONTACTS</a></li>
+                <li><a href="portfolio.html" class="page3">PORTFOLIO</a></li>
+            </ul>
+            <img src="moon.png" id="icon">
+        </nav>
+
+    <div class="title">
+        <h1><p><span>></span> ><span> ></span> Skills<span>  &</span> Technology</p></h1>
+    </div>
+    <div class="required">
+    <div class="info">
+            <ul>
+                <li><span>Skills</span></li>
+            </ul>
+            <ol>
+                <li>C/C++, Python, Java programming language</li>
+                <li>HTML (Hyper text markup language)</li>
+                <li>CSS(Cascading style sheet)</li>
+                <li>Javascript</li>
+                <li>React.JS & Node.JS</li>
+            </ol>
+          </ul>
+    </div>
+    <div class="info2">
+        <ul>
+            <li><span>Technology</span></li>
+        </ul>
+            <ol class="sec">
+                <li>Github</li>
+                <li>VS Code</li>
+                <li>Bootstrap</li>
+                <li>Figma</li>
+                <li>Atom</li>
+            </ol>
+        </ul>
+        </div>
+    </div>
+
+    <div class="pointer">
+        <ul>
+            <li><a href="portfolio.html">1</a></li>
+            <li class="slide2"><a href="portfoilo1.html">2</a></li>
+            <li><a href="portfolio2.html">3</a></li>
+            <li><a href="portfolio3.html">4</a></li>
+        </ul>
+    </div>
+</div>
+
+    <script>
+        var icon = document.getElementById("icon");
+        icon.onclick  = function()  {
+            document.body.classList.toggle("dark-theme");
+            if(document.body.classList.contains("dark-theme")){
+                icon.src = "sun.png";
+            }
+            else{
+                icon.src = "moon.png";
+            }
+        }
+    </script>
+</body>
+</html>
